@@ -1,0 +1,14 @@
+
+report:
+  host: https://testreportingapi.clearsettle.com
+  paths:
+    login: /api/v3/merchant/user/login
+    reports: /api/v3/transactions/report
+    list: /api/v3/transactions/list
+    transaction: /api/v3/transaction
+    client: /api/v3/client
+    merchant: /api/v3/merchant
+
+server:
+  port: 8181
+
